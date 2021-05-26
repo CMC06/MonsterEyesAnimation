@@ -11,6 +11,7 @@ body {
   width: 100%;
   text-align: center;
 }
+
 .eye {
   width: 240px;
   height: 120px;
@@ -21,6 +22,7 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 .ball {
   width: 80px;
   height: 80px;
@@ -30,4 +32,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
+}
+
+.scar {
+  top: -80%;
+  left: 65%;
+  position: absolute;
+  z-index: 6;
 }
